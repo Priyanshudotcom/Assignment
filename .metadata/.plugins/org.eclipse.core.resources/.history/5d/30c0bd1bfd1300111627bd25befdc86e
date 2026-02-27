@@ -1,0 +1,11 @@
+package example;
+
+import example.Animal.Dog;
+
+public class Dog {
+	public static void main(String[] args) {
+		Dog ob= new Dog();
+		ob.bark();
+		ob.sound();
+	}
+}

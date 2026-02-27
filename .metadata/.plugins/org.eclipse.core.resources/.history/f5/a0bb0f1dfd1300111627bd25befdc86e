@@ -1,0 +1,14 @@
+package example;
+
+public class Animal {
+	
+	void sound() {
+		System.out.println("makes sound");
+	}
+	public class Dog extends Animal {
+		
+		void bark() {
+			System.out.println("Dog Barks");
+		}
+	}
+}

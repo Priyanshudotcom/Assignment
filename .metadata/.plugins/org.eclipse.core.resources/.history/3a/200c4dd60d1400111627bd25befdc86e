@@ -1,0 +1,22 @@
+package example;
+
+public class Que_4 {
+	
+	void display() {
+		System.out.println("Hello world");
+	}
+    void display(int n) {
+    	System.out.println("Hi ");
+    }
+    
+
+    public static void main(String[] args) {
+    	Que_4_Answer ans= new Que_4_Answer();
+		ans.display();
+		ans.display(5);
+		
+	
+		ans.display();
+		
+	}
+}

@@ -1,0 +1,27 @@
+package example;
+
+public class Que_4 {
+	
+	void display() {
+		System.out.println("Hello world");
+	}
+    void display(int n) {
+    	System.out.println("Hi ");
+    }
+    public class answer extends Que_4{
+    	@Override
+    	void display(){
+    		System.out.println("Good morning");
+    	}
+    }
+    
+    public static void main(String[] args) {
+		Que_4 obj= new Que_4();
+		obj.display();
+		obj.display(5);
+		
+		answer ans= new answer();
+		ans.display();
+		
+	}
+}

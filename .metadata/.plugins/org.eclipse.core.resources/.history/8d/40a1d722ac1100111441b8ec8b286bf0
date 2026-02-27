@@ -1,0 +1,23 @@
+package example;
+import java.util.*;
+
+public class que_1 {
+	
+	void check(int n) {
+	if(n<0) {
+		System.out.println("positive");
+	}else if(n==0){
+		System.out.println("zero");
+	}else {
+		System.out.println("negative");
+	}
+	}
+	
+	public static void main(String[] args) {
+		que_1 q= new que_1();
+		q.check(-2);
+		
+	}
+		
+	
+}

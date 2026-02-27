@@ -1,0 +1,9 @@
+package example;
+
+public class Shape {
+	
+	void polygon() {
+		System.out.println("It is a shape");
+	}
+
+}

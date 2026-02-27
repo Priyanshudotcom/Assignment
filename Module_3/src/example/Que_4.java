@@ -1,0 +1,24 @@
+package example;
+
+public class Que_4 {
+	
+	void display() {
+		System.out.println("Hello world");
+	}
+    void print(int n) {
+    	System.out.println("Hi " + n);
+
+    }
+    void print(String name) {
+    	System.out.println("Hey " +name);
+    }
+
+    public static void main(String[] args) {
+    	Que_4_Answer ans= new Que_4_Answer();
+		ans.display();
+		ans.print(5);
+		ans.print("Priyanshu");
+		ans.display();
+		
+	}
+}
